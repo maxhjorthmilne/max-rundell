@@ -27,3 +27,6 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 
+setInterval(() => {
+  plusSlides(1);
+}, 3000);
